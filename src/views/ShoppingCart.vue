@@ -61,6 +61,6 @@
                 Vue.delete(this.heartList, index)
                 localStorage.setItem("favouriteList", JSON.stringify(this.heartList));
             }
-        }
+        }//try to use vue 3 syntax everywhere
     }
 </script>

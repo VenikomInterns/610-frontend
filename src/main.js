@@ -6,7 +6,7 @@ import VueAxios from "vue-axios";
 import axios from 'axios';
 
 Vue.config.productionTip = false
-
+//its good practise to create axios instance here with baseUrl and use it everywhere
 new Vue({
   router,
   store,

@@ -12,6 +12,8 @@
                 </td>
             </tr>
         </table>
+        <!---Avoid using multiple views in one view. Listing category, listing category products, listing one product-->
+        <!--This should be seperated in 3 different views-->
         <div v-if="productsList">
             <table>
                 <tr>
@@ -150,7 +152,7 @@
                 }
 
                 await this.$router.push('shopping-cart');
-            }
+            }//excellent
         }
     }
 </script>
